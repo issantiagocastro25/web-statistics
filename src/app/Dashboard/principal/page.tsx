@@ -7,7 +7,7 @@ import Stadistics from '../../../components/stadistics';
 const entities = [
   { id: 1, name: 'Leon medical centers', description: 'Leon Medical Centers es uno de los principales proveedores de los servicios y cuidados de salud para los pacientes de Medicare desde 1996. Los pacientes tienen acceso a ocho centros de alta tecnología, convenientemente localizados en todo Miami-Dade.',url:"https://www.cancer.gov.co/", stats: [/* stats data */] ,},
   { id: 2, name: 'Another entity', description: 'Leon Medical Centers es uno de los principales proveedores de los servicios y cuidados de salud para los pacientes de Medicare desde 1996. Los pacientes tienen acceso a ocho centros de alta tecnología, convenientemente localizados en todo Miami-Dade.',url:"https://www.cancer.gov.co/", stats: [/* stats data */] },
-  { id: 1, name: 'Leon medical centers', description: 'Leon Medical Centers es uno de los principales proveedores de los servicios y cuidados de salud para los pacientes de Medicare desde 1996. Los pacientes tienen acceso a ocho centros de alta tecnología, convenientemente localizados en todo Miami-Dade.',url:"https://www.cancer.gov.co/", stats: [/* stats data */] },
+  { id: 3, name: 'Leon medical centers', description: 'Leon Medical Centers es uno de los principales proveedores de los servicios y cuidados de salud para los pacientes de Medicare desde 1996. Los pacientes tienen acceso a ocho centros de alta tecnología, convenientemente localizados en todo Miami-Dade.',url:"https://www.cancer.gov.co/", stats: [/* stats data */] },
   // Agrega más entidades según sea necesario
 ];
 
@@ -40,7 +40,7 @@ const App: React.FC = () => {
               <Cards entity={entity} />
             </div>
             <div className='flex-col w-2/3'>
-              <Stadistics entity={entity} />
+              <Stadistics />
             </div>
           </div>
         ))}

@@ -19,7 +19,7 @@ export default function Login() {
       </div>
       <Button color="purple" type="submit">Iniciar sesión</Button>
     </form>
-    <div className="mt-3">
+    <div className="mt-1">
       <Label className="text-sm font-extralight"> ¿No tienes una cuenta todavía? </Label>
       <Button color="warning" href="/Auth/register">Registrarme</Button>
     </div>
