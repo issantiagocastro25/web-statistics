@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Wilhelm Tell",
+      "monstersSlayed": 1,
+      "region": "Uri, Schwyz, Unterwalden",
+      "status": "National Hero"
+    },
+    {
+      "name": "The Witcher",
+      "monstersSlayed": 129,
+      "region": "Kaedwen",
+      "status": "Legend"
+    },
+    {
+      "name": "Mizutsune",
+      "monstersSlayed": 82,
+      "region": "Japan",
+      "status": "N/A"
+    }
+  ]
+  
