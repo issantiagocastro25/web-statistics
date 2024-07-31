@@ -3,8 +3,8 @@
 import { Card } from '@tremor/react';
 import React from 'react';
 import { LineChartHero } from '@/components/staticLineChart';
-import BarDiagram from '@/components/barDiagrama';
-import DonutChart from '@/components/donutDiagrama';
+import { BarChartSocialMediaFollowers } from '@/components/ComponentsBar/BarChartListGeneral';
+import { CardSocialWeb } from '@/components/CardSocialWeb';
 
 const App: React.FC = () => {
   return (    
@@ -16,12 +16,27 @@ const App: React.FC = () => {
                 <LineChartHero/>
               </div>
               <div className='grid grid-flow-row'>
-                <BarDiagram />
-                <div className='grid grid-flow-row'>
+                <BarChartSocialMediaFollowers />
+              {/*  <div className='grid grid-flow-row'>
                 <DonutChart />
+                </div> */}
+              </div>
+              <div className='m-10'>
+                <div className='m-10'>
+                <CardSocialWeb/>
+                </div>
+                <div className='m-10'>
+                <CardSocialWeb/>
                 </div>
               </div>
-              
+              <div className='m-10'>
+                <div className='m-10'>
+                <CardSocialWeb/>
+                </div>
+                <div className='m-10'>
+                <CardSocialWeb/>
+                </div>
+              </div>
             </div>
         </Card>
 
